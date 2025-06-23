@@ -159,3 +159,6 @@ https://github.com/1rhino2/shadowexif/issues
 - Command-line interface
 - Python API
 - Support for multiple image formats
+
+
+## Im not sure why sussysudster is the first to commit. Just ignore it.
