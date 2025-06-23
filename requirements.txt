@@ -1,0 +1,6 @@
+# Core dependencies for ShadowEXIF
+Pillow>=8.0.0
+piexif>=1.1.3
+
+# Optional performance enhancements
+# pybind11>=2.6.0  # Uncomment for C++ acceleration support
