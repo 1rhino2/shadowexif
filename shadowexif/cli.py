@@ -132,14 +132,13 @@ Supported formats: JPEG, PNG, BMP, GIF, TIFF, WebP
     )
     
     # Input specification
-    input_group = parser.add_mutually_exclusive_group(required=True)
-    input_group.add_argument(
+    parser.add_argument(
         'files',
         nargs='*',
         type=validate_input_path,
         help='Image files to process'
     )
-    input_group.add_argument(
+    parser.add_argument(
         '-d', '--directory',
         type=validate_input_path,
         help='Directory containing images to process'
@@ -253,8 +252,11 @@ def main():
         print_banner()
     
     # Validate arguments
-    if args.files and not args.files:
-        parser.error("No input files specified")
+    if not args.files and not args.directory:
+        parser.error("Must specify either input files or --directory")
+    
+    if args.files and args.directory:
+        parser.error("Cannot specify both input files and --directory")
     
     if args.recursive and not args.directory:
         parser.error("--recursive can only be used with --directory")
