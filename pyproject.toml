@@ -13,10 +13,10 @@ description = "Professional EXIF metadata removal tool for privacy and security"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "xmansussy", email = "xmansussy@yahoo.com"}
+    {name = "", email = ""}
 ]
 maintainers = [
-    {name = "xmansussy", email = "xmansussy@yahoo.com"}
+    {name = "", email = ""}
 ]
 keywords = ["exif", "metadata", "privacy", "security", "image", "photo", "jpeg", "png", "tiff"]
 classifiers = [
