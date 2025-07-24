@@ -22,8 +22,8 @@ Usage:
 """
 
 __version__ = "1.0.0"
-__author__ = "xmansussy"
-__email__ = "xmansussy@yahoo.com"
+__author__ = ""
+__email__ = ""
 __license__ = "MIT"
 
 from .core import ShadowEXIFProcessor, ProcessingStats
