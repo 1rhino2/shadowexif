@@ -161,4 +161,4 @@ https://github.com/1rhino2/shadowexif/issues
 - Support for multiple image formats
 
 
-## Im not sure why sussysudster is the first to commit. Just ignore it.
+
