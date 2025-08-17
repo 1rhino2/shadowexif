@@ -3,7 +3,7 @@
 ShadowEXIF Core Module
 
 Simple and effective EXIF metadata processing.
-Author: xmansussy@yahoo.com
+Author: 1rhino2 on discord
 """
 
 import os
