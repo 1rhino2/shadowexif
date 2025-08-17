@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Setup script for ShadowEXIF - EXIF Metadata Removal Tool
-Simple, clean setup for PyPI distribution.
-"""
+
 
 from pathlib import Path
 from setuptools import setup, find_packages
