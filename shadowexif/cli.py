@@ -42,7 +42,7 @@ def print_banner():
 ShadowEXIF - EXIF Metadata Removal Tool
 ========================================
 Strip or redact EXIF data from your images
-Author: xmansussy@yahoo.com
+Author: 1rhino2 on discord
     """)
 
 
